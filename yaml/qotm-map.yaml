@@ -1,0 +1,9 @@
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: linkerd2-qotm
+  namespace: test
+spec:
+  prefix: /qotm-linkerd2/
+  service: qotm-linkerd2
